@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Museo";
+    src: url('../font/MuseoSansCyrl-500.eot?') format('eot'),
+    url('../font/MuseoSansCyrl-500.woff') format('woff');
+}
+
+/*navbar*/
+.navbar-brand {
+    margin-bottom: -35px;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    padding-top: 40px;
+}
+
+/*jumbotron*/
+.jumbotron {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*footer*/
+.footer {
+    padding: 1.25rem 0;
+}
+
+.footer__content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*main*/
+.main {
+    margin-bottom: -40px;
+    background: url("../img/bg.jpg") repeat;
+}
+
+.main-img {
+    display: none;
+    margin-left: -150px;
+}
+
+.container_main {
+    padding: 0 60px;
+}
+
+/*media queries*/
+@media (max-width: 991px) {
+    .main-slogan {
+        font-size: 3rem;
+    }
+
+    .main-img {
+        width: 440px;
+    }
+
+    .btn-primary {
+        padding: 1rem 2rem;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .jumbotron,
+    .footer {
+        text-align: center;
+    }
+
+    .main-slogan {
+        font-size: 2rem;
+    }
+
+    .main .container {
+        padding: 0 10px;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+    }
+}

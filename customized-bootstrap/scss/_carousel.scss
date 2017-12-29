@@ -1,0 +1,39 @@
+@import "../../node_modules/bootstrap/scss/carousel";
+
+.carousel-indicators {
+  bottom: 40px;
+
+  li {
+    background-color: rgb(188, 188, 188);
+    border-radius: 50%;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  border: solid #a8a8a8;
+  border-width: 0 5px 5px 0;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  border: solid $carousel-control-color;
+  border-width: 0 5px 5px 0;
+}
+
+.carousel-control-prev-icon {
+  transform: rotate(135deg);
+}
+
+.carousel-control-next-icon {
+  transform: rotate(-45deg);
+}
+
+.carousel-control-prev{
+  left: -70px;
+}
+
+.carousel-control-next {
+  right: -70px;
+}

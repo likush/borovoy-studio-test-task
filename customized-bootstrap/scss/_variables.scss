@@ -1,0 +1,31 @@
+//fonts
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+//font-weight
+$font-weight-normal: 600;
+$font-weight-bold: 700;
+
+//colors
+$red: #e54646;
+$transparent: transparent;
+
+//jumbotron
+$jumbotron-bg: $transparent;
+
+//navbar
+$navbar-light-hover-color: $red;
+
+//headings
+$headings-margin-bottom: 1rem;
+$headings-font-family: "Museo", serif;
+
+//carousel
+$carousel-control-color: $red;
+$carousel-indicator-width: 12px;
+$carousel-indicator-height: 12px;
+$carousel-indicator-spacer: 6px;
+$carousel-indicator-active-bg: $red;
+$carousel-control-icon-width: 30px;
+$carousel-control-width: auto;
+
+@import "../../node_modules/bootstrap/scss/variables";
